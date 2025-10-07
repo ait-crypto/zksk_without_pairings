@@ -5,7 +5,7 @@ import re
 from setuptools import setup, find_packages
 
 
-INSTALL_REQUIRES = ["petlib", "bplib"]
+INSTALL_REQUIRES = ["petlib"]
 SETUP_REQUIRES = ["pytest-runner"]
 TEST_REQUIRES = ["pytest"]
 DOC_REQUIRES = ["sphinx", "sphinx_rtd_theme", "m2r"]
