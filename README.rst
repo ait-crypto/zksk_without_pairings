@@ -1,5 +1,5 @@
 ####
-zksk
+zksk, but without bplib
 ####
 
 |build_status| |docs_status| |coverage| |license| |arxiv|
@@ -25,6 +25,8 @@ zksk
    :alt: Paper on arXiv
 
 .. start-description-marker-do-not-remove
+
+This library is a fork of the Zero-Knowledge Swiss Knife, without the (non-critical) library "bplib" for pairings, which is no longer maintained and causes installation to fail on modern systems.
 
 Zero-Knowledge Swiss Knife: Python library for prototyping composable zero-knowledge proofs in the
 discrete-log setting.
