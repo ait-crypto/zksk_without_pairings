@@ -2,31 +2,10 @@
 zksk, but without bplib
 ####
 
-|build_status| |docs_status| |coverage| |license| |arxiv|
-
-.. |build_status| image:: https://travis-ci.org/spring-epfl/zksk.svg?branch=master
-   :target: https://travis-ci.org/spring-epfl/zksk
-   :alt: Build status
-
-.. |docs_status| image:: https://readthedocs.org/projects/zksk/badge/?version=latest
-   :target: https://zksk.readthedocs.io/?badge=latest
-   :alt: Documentation status
-
-.. |coverage| image:: https://codecov.io/gh/spring-epfl/zksk/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/spring-epfl/zksk
-   :alt: Test coverage
-
-.. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
-   :target: https://opensource.org/licenses/MIT
-   :alt: MIT License
-
-.. |arxiv| image:: https://img.shields.io/badge/cs.CR-arXiv%3A1911.02459-red
-   :target: https://arxiv.org/abs/1911.02459
-   :alt: Paper on arXiv
-
 .. start-description-marker-do-not-remove
 
 This library is a fork of the Zero-Knowledge Swiss Knife, without the (non-critical) library "bplib" for pairings, which is no longer maintained and causes installation to fail on modern systems.
+What follows is taken from the REAMDE of the original library.
 
 Zero-Knowledge Swiss Knife: Python library for prototyping composable zero-knowledge proofs in the
 discrete-log setting.
@@ -100,65 +79,5 @@ Documentation and materials
 quick protyping of privacy-enhancing technologies, not production use.
 
 --------------------------------------------------------------------------------------------
-
-
-===============
-Getting started
-===============
-
-.. start-getting-started-marker-do-not-remove
-
-You need to have Python 3.6 or higher to use zksk. The library is tested and supported on
-Debian-based systems. Mac support is not guaranteed.
-
-You can install zksk using pip:
-
-.. code-block:: bash
-
-   pip install git+https://github.com/spring-epfl/zksk
-
-To make sure everything is in order, you can run unit tests. For that, install the dev version of
-the package:
-
-.. code-block:: bash
-
-   pip install "git+https://github.com/spring-epfl/zksk#egg=zksk[dev]"
-
-Then, run the tests with pytest:
-
-.. code-block:: bash
-
-   pytest
-
-.. end-getting-started-marker-do-not-remove
-
-============
-Contributing
-============
-
-See the `contributing document <CONTRIBUTING.rst>`_.
-
-======
-Citing
-======
-
-.. start-citing-do-not-remove
-
-If you use zksk in your research, please cite like this:
-
-.. code-block:: bibtex
-
-    @inproceedings{LueksKFBT19,
-      author    = {Wouter Lueks and
-                   Bogdan Kulynych and
-                   Jules Fasquelle and
-                   Simon Le Bail{-}Collet and
-                   Carmela Troncoso},
-      title     = {zksk: {A} Library for Composable Zero-Knowledge Proofs},
-      booktitle = {Proceedings of the 18th {ACM} Workshop on Privacy in the Electronic
-                   Society ({WPES@CCS})},
-      pages     = {50--54},
-      year      = {2019},
-    }
 
 .. end-citing-do-not-remove
